@@ -22,9 +22,11 @@ export default function Header() {
       {/* Journal Title Bar */}
       <section className="journal-title-bar">
         <div className="journal-title-inner">
-          <h2 className="journal-title">Journal of Legal Studies</h2>
+          <h2 className="journal-title">JOURNAL
+            OF
+            BUSINESS AND ALLIED RESEARCH</h2>
           <p className="journal-subtitle">Volume I Issue I November 2025
-            A peer-reviewed Legal Journal
+            A peer-reviewed business and allied research Journal
             (Annual)
           </p>
 

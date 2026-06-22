@@ -8,68 +8,128 @@ type Member = {
 };
 
 export default function AboutDMUPage() {
-  const patronInChief: Member[] = [
+  const patron: Member[] = [
     {
-      name: "Professor (Dr) W. Chandbabu Singh",
-      details: ["Vice Chancellor", "Dhanamanjuri University, Manipur"],
-      email: "",
+      name: "Prof. W. Chandbabu Singh",
+      details: ["Vice Chancellor", "Dhanamanjuri University, Imphal, Manipur - 795001"],
+      email: "patronDJBAR@dmu.ac.in",
       link: "https://dmu.ac.in/"
     }
   ];
 
   const editorInChief: Member[] = [
     {
-      name: "Dr. R K Premila Devi",
-      details: ["Associate Professor", "Dean, School of legal studies, DMU"],
-      email: "rkpremila@dmu.ac.in",
+      name: "Prof. Ningombam Jayanti",
+      details: ["Dean, School of Business Studies", "Dhanamanjuri University, Imphal, Manipur - 795001"],
+      email: "editordjbar@dmu.ac.in",
       link: "https://dmu.ac.in/"
     }
   ];
 
-  const managingEditor: Member[] = [
+  const editors: Member[] = [
     {
-      name: "Dr. Salam Pramodkanta Singh",
-      details: ["Associate Professor", "Department of Law, DMU"],
-      email: "drpramodkanta@dmu.ac.in",
+      name: "Dr. Chithung Mary Thomas",
+      details: ["Associate Professor", "Department of Commerce, Dhanamanjuri University, Manipur - 795001"],
+      email: "editordjbar@dmu.ac.in, chithungmary@dmu.ac.in",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Dr. Aribam Debala Devi",
+      details: ["Associate Professor", "Department of Commerce, Dhanamanjuri University, Manipur - 795001"],
+      email: "gurudebala@dmu.ac.in",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Dr. Ayekpam Victoria Chanu",
+      details: ["Assistant Professor", "Department of Commerce, Dhanamanjuri University, Manipur - 795001"],
+      email: "victoriaayekpam@dmu.ac.in",
       link: "https://dmu.ac.in/"
     }
   ];
 
-  const associateEditors: Member[] = [
+  const editorialBoard: Member[] = [
     {
-      name: "Dr. N. Brajakanta Singh",
-      details: ["Assistant Professor", "Department of Law, DMU"],
-      email: "Brajakanta84@dmu.ac.in",
+      name: "Dr. W. Priyokumar Singh",
+      details: ["Assistant Professor", "Department of Commerce", "Dhanamanjuri University, Manipur - 795001"],
+      email: "wpriyokumar@dmu.ac.in",
       link: "https://dmu.ac.in/"
     },
     {
-      name: "Dr. Y. Sarojbala",
-      details: ["Assistant Professor", "Department of Law, DMU"],
-      email: "saroj@dmu.ac.in",
+      name: "Dr. Th. Priyokumar Singh",
+      details: ["Assistant Professor", "Department of Economics", "Dhanamanjuri University, Manipur - 795001"],
+      email: "thpriyokumar@dmu.ac.in",
       link: "https://dmu.ac.in/"
     },
     {
-      name: "Dr. Yailiwon Shangh",
-      details: ["Assistant Professor", "Department of Law, DMU"],
-      email: "shang@dmu.ac.in",
+      name: "Prof. Ganga Prasad Prasain",
+      details: ["Professor", "Manipur University, Canchipur – 795003 and Former Vice Chancellor, Tripura University, Agartala, Tripura"],
+      email: "gpprasain@gmail.com",
       link: "https://dmu.ac.in/"
     },
     {
-      name: "Professor (Dr) Rishikesh Wagle",
-      details: ["Professor of Law", "Kathmandu University School of Law"],
-      email: "rishi.wagle@ku.edu.np",
+      name: "Prof. B.B. Pradhan",
+      details: ["Pro-Vice Chancellor", "SOA University, Khandagiri Square, Bhubaneswar, 751030, India"],
+      email: "15bbpradhan@gmail.com",
       link: "https://dmu.ac.in/"
     },
     {
-      name: "Ghulam Shah Adel Alizai (Adel)",
-      details: ["Academic Casual, University of Melbourne, Australia;", "Principal Director, Mother International Institute of Education (MIIED)", "Melbourne, Australia"],
-      email: "Adel_alizai@yahoo.com",
+      name: "Dr. Jadi Bala Komaraiah",
+      details: ["Senior Professor", "Department of Economics, Banaras Hindu University, Varanasi (UP) - 221005"],
+      email: "komaraiah@bhu.ac.in",
       link: "https://dmu.ac.in/"
     },
     {
-      name: "Dr. Anudeep Kaur",
-      details: ["Solicitor, Sydney West Legal and Migration, Australia;", "Steering Committee Member, Indian Women Empower (CMRC), Sydney"],
-      email: "Anudeepkaur08@gmail.com",
+      name: "Prof. Ch. Ibohal Meitei",
+      details: ["Director", "Research & Development Cell, Manipur University, Canchipur, Manipur – 795003"],
+      email: "ibmeitei@gmail.com",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Prof. Kh. Rajen Singh",
+      details: ["Principal", "DM College of Commerce", "Dhanamanjuri University, Manipur – 795001"],
+      email: "rajenkhumanthem12@gmail.com",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Dr. L. Sanatomba Meetei",
+      details: ["Assistant Professor", "Department of Economics", "Dhanamanjuri University, Manipur - 795001"],
+      email: "drlsanatomba@dmu.ac.in",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Dr. Kiirii Onand Monsang",
+      details: ["Assistant Professor", "Department of Commerce", "Dhanamanjuri University, Manipur"],
+      email: "kiiriionand@dmu.ac.in",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Prof. Radheshyam Pradhan",
+      details: ["Professor", "Central Department of Management, Tribhuvan University, Kirtipur P.O. Box No. 10076, Kathmandu, Nepal – 44600"],
+      email: "rspradhan@uniglobe.edu.np",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Prof. A. Ibemcha Chanu",
+      details: ["Dean", "Faculty of Commerce & Management Studies, Bodoland University, Kokrajar, P.O. - Rangalikhata, Assam - 783370"],
+      email: "ibemcha.chanu@buniv.edu.in",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Prof. L. Shashikumar Sharma",
+      details: ["Professor", "Department of Management, Mizoram University, Aizawl, Mizoram – 796004"],
+      email: "lsksharma@mzu.edu.in",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Dr. Akkarapon Nuemaihon",
+      details: ["Associate Professor", "Buriram Rajabhat University, 439, Jira Road, Nai-Muang Sub-district, Muang District, Buriram Province 31000, Thailand"],
+      email: "akkarapon.nm@bru.ac.th",
+      link: "https://dmu.ac.in/"
+    },
+    {
+      name: "Prof. A. Rajmani Singh",
+      details: ["Director, IQAC", "Manipur University, Canchipur, Manipur – 795003"],
+      email: "rajaheibam2@gmail.com",
       link: "https://dmu.ac.in/"
     }
   ];
@@ -110,8 +170,8 @@ export default function AboutDMUPage() {
         <p>Named in honour of Maharani Dhanamanjuri, whose contributions significantly advanced higher education in the State, the University represents a landmark institution in Manipur's educational landscape. DMU was formed by integrating some of the State's most distinguished institutions, including DM College of Science, DM College of Arts, DM College of Commerce, G.P. Women's College, and LMS Law College.</p>
         <p>Located in the heart of Imphal, Dhanamanjuri University offers undergraduate, postgraduate, and research programmes across a wide range of disciplines in the sciences, humanities, commerce, law, and professional studies. The University is committed to fostering academic excellence, research innovation, critical thinking, and social responsibility while preserving the rich cultural heritage of Manipur.</p>
         <p>Through its dedication to quality education, interdisciplinary research, and community engagement, Dhanamanjuri University strives to create a vibrant learning environment that empowers students and scholars to contribute meaningfully to society, the legal profession, and the pursuit of knowledge</p>
-        <h3 style={{ marginTop: 40, marginBottom: 20 }}>Patron-In-Chief</h3>
-        {renderCards(patronInChief)}
+        <h3 style={{ marginTop: 40, marginBottom: 20 }}>Patron</h3>
+        {renderCards(patron)}
       </div>
 
       {/* Editorial Team */}
@@ -121,11 +181,11 @@ export default function AboutDMUPage() {
         <h3 style={{ marginTop: 20, marginBottom: 20 }}>Editor-In-Chief</h3>
         {renderCards(editorInChief)}
 
-        <h3 style={{ marginTop: 40, marginBottom: 20 }}>Managing Editor</h3>
-        {renderCards(managingEditor)}
+        <h3 style={{ marginTop: 40, marginBottom: 20 }}>Editor</h3>
+        {renderCards(editors)}
 
-        <h3 style={{ marginTop: 40, marginBottom: 20 }}>Associate Editors</h3>
-        {renderCards(associateEditors)}
+        <h3 style={{ marginTop: 40, marginBottom: 20 }}>Editorial Boards</h3>
+        {renderCards(editorialBoard)}
       </div>
 
       {/* Indexing Section Content */}

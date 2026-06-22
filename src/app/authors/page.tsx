@@ -25,7 +25,8 @@ export default function AuthorsPage() {
         </div>
         <div id="subscription">
           <h3>
-            Subscription Fees
+            <p>Academician INR 750 <br />
+              Research Scholar & Students INR 500</p>
           </h3>
           <p>
 
